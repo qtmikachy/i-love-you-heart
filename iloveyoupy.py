@@ -37,7 +37,7 @@ def show_big_message():
     t.color("#ff4d6d") 
     t.write("I love you", align="center", font=("Arial", 36, "bold"))
 
-screen.ontimer(show_big_message, 15000)
+screen.ontimer(show_big_message, 10000)
 
 turtle.done()
 # I hope you like it :D
